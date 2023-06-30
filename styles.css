@@ -1,0 +1,193 @@
+.site-header {
+  background-color: #fff;
+}
+
+.logo {
+}
+
+.sitenav {
+
+}
+.sitenav__list {
+  list-style: none;
+}
+.sitenav__item {
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.sitenav__link {
+  color: #000;
+  text-decoration: none;
+}
+
+.button {
+  font-size: 13px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  background-color: #FF7500;
+}
+
+.hero {
+  background-color: #252420;
+  color: #fff;
+}
+
+.hero__content {
+  width: 387px;
+}
+
+.orange-line{
+  width: 80px;
+  height: 3px;
+  border: 0;
+  background-color: #FF7500;
+}
+
+.hero__heading {
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.hero__text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+}
+
+.hero__link {
+}
+
+.hero__img {
+  width: 510px;
+  height: 510px;
+  border-radius: 8px;
+}
+
+.features {
+}
+
+.features__heading2 {
+  font-size: 72px;
+  font-weight: bold;
+  line-height: 1.2;
+  letter-spacing: 0.5px;
+}
+
+.features__list {
+  list-style: none;
+}
+
+.features__item {
+  width: 340px;
+}
+.features__wrapper {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(255, 117, 0, 0.2);
+  border-radius: 50%;
+}
+
+.features__icon {
+}
+
+.features__heading3 {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.2;
+  letter-spacing: 0.5px;
+  color: #000;
+}
+
+.features__text {
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: normal;
+}
+
+/* AKSIYA */
+.discount {
+  background-color: #252420;
+  color: #fff;
+}
+
+.discount__content {
+  width: 440px;
+}
+
+.discount__heading2 {
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.2;
+  letter-spacing: 0.5px;
+}
+
+.discount__text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+}
+
+.discount__amount {
+  color: #FF7500;
+}
+
+.discount__link {
+}
+
+.discount__img {
+  width: 440px;
+  height: 440px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+
+/* FOOTER */
+.footer {
+  background-color: #f8f8f8;
+}
+
+.footer ul {
+  list-style: none;
+}
+.footer-top {
+}
+
+.footer__divider {
+  height: 2px;
+  background-color: rgba(37, 36, 32, 0.5)
+}
+.footer-top__link-logo {
+}
+
+.footer-top__img-logo {
+}
+
+.footer-top__list {
+}
+
+.footer-top__item {
+}
+
+.footer-top__social-link {
+}
+
+.footer-bottom {
+}
+
+.footer-bottom__list {
+  width: 224px;
+  font-size: 16px;
+}
+.footer-bottom__item {
+}
+.footer-bottom__link {
+  color: #252420;
+  text-decoration: none;
+}
