@@ -9,17 +9,25 @@ body {
 
 /* HEADER */
 .site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: #fff;
 }
 
 .logo {
 }
 
+.site-header__action {
+  display: flex;
+  align-items: center;
+}
 /* SITENAV */
 .sitenav {
 }
 
 .sitenav__list {
+  display: flex;
   list-style: none;
 }
 
@@ -46,6 +54,9 @@ body {
 
 /* HERO */
 .hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: #252420;
   color: #fff;
 }
@@ -93,6 +104,8 @@ body {
 }
 
 .features__list {
+  display: flex;
+  justify-content: space-between;
   list-style: none;
 }
 
@@ -121,6 +134,9 @@ body {
 
 /* AKSIYA */
 .discount {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: #252420;
   color: #fff;
 }
@@ -164,6 +180,8 @@ body {
   list-style: none;
 }
 .footer-top {
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer__divider {
@@ -177,6 +195,7 @@ body {
 }
 
 .footer-top__list {
+  display: flex;
 }
 
 .footer-top__item {
@@ -186,6 +205,7 @@ body {
 }
 
 .footer-bottom {
+  display: flex;
 }
 
 .footer-bottom__list {
