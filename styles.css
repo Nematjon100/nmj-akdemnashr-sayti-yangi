@@ -1,3 +1,7 @@
+*:focus {
+  outline: 2px dotted #FF7500;
+  outline-offset: 3px;
+}
 
 body {
   font-size: 16px;
@@ -12,10 +16,22 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-top: 5px solid #FF7500;
   background-color: #fff;
 }
 
 .logo {
+  transition: 0.4s ease;
+}
+
+.logo:hover {
+  opacity: 0.8;
+}
+
+.logo:active {
+  opacity: 0.6;
 }
 
 .site-header__action {
@@ -28,6 +44,7 @@ body {
 
 .sitenav__list {
   display: flex;
+  padding: 0;
   list-style: none;
 }
 
@@ -39,17 +56,41 @@ body {
   color: #000;
 }
 
+
 .sitenav__link {
   color: #000;
   text-decoration: none;
+  transition: color 0.4s ease,
+    opacity 0.4s ease ;
+}
+
+.sitenav__link:hover {
+  color: #FF7500;
+}
+
+.sitenav__link:active {
+  color: #FF7500;
+  opacity: 0.6;
 }
 
 .button {
+  display: inline-block;
+  padding: 12px 24px;
   font-size: 13px;
+  border-radius: 4px;
   font-weight: bold;
   text-decoration: none;
   color: #fff;
   background-color: #FF7500;
+  transition: opacity 0.4s ease;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.button:active {
+  opacity: 0.6;
 }
 
 /* HERO */
@@ -57,6 +98,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
   background-color: #252420;
   color: #fff;
 }
@@ -94,6 +137,8 @@ body {
 
 /* FEATURES */
 .features {
+  padding-top: 210px;
+  padding-bottom: 210px;
 }
 
 .features__heading2 {
@@ -105,6 +150,7 @@ body {
 
 .features__list {
   display: flex;
+  padding: 0;
   justify-content: space-between;
   list-style: none;
 }
@@ -113,6 +159,9 @@ body {
   width: 340px;
 }
 .features__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100px;
   height: 100px;
   background-color: rgba(255, 117, 0, 0.2);
@@ -173,6 +222,8 @@ body {
 
 /* FOOTER */
 .footer {
+  padding-top: 56px;
+  padding-bottom: 56px;
   background-color: #f8f8f8;
 }
 
@@ -186,8 +237,10 @@ body {
 
 .footer__divider {
   height: 2px;
+  border: 0;
   background-color: rgba(37, 36, 32, 0.5)
 }
+
 .footer-top__link-logo {
 }
 
@@ -196,12 +249,24 @@ body {
 
 .footer-top__list {
   display: flex;
+  padding: 0;
 }
 
 .footer-top__item {
 }
 
 .footer-top__social-link {
+  color: #252420;
+  transition: color 0.4s ease,
+    opacity 0.4s ease;
+}
+
+.footer-top__social-link:hover {
+  color: #FF7500;
+}
+
+.footer-top__social-link:active {
+  opacity: 0.6;
 }
 
 .footer-bottom {
@@ -210,11 +275,23 @@ body {
 
 .footer-bottom__list {
   width: 224px;
+  padding: 0;
   line-height: 19px;
 }
+
 .footer-bottom__item {
 }
+
 .footer-bottom__link {
   color: #252420;
   text-decoration: none;
+}
+
+.footer-bottom__link:hover{
+  color: #FF7500;
+}
+
+.footer-bottom__link:active{
+  color: #FF7500;
+  opacity: 0.6;
 }
