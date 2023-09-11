@@ -133,6 +133,7 @@ body {
 }
 
 .hero__container {
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -169,6 +170,9 @@ body {
 }
 
 .hero__img {
+  position: absolute;
+  right: 20px;
+  top: -40px;
   width: 510px;
   height: 510px;
   border-radius: 8px;
@@ -220,9 +224,6 @@ body {
   border-radius: 50%;
 }
 
-.features__icon {
-}
-
 .features__heading3 {
   margin: 0;
   margin-bottom: 12px;
@@ -251,9 +252,11 @@ body {
 }
 
 .discount__container {
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 420px;
 }
 
 .discount__content {
@@ -288,10 +291,10 @@ body {
   color: #FF7500;
 }
 
-.discount__link {
-}
-
 .discount__img {
+  position: absolute;
+  right: 64px;
+  bottom: 64px;
   width: 440px;
   height: 440px;
   object-fit: cover;
